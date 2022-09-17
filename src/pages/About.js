@@ -32,7 +32,7 @@ const About = () => {
     }
   }
   return (
-    <div>
+    <div className="about-html">
       <Nav />
       <div className="about">
         <img src={myPicture} alt="IuniiaPakhomova" />
@@ -69,10 +69,12 @@ const About = () => {
           goals, and reaching a destination. In team settings, I bring passion,
           vision, motivation, and a strong sense of organization and structure.{' '}
         </p>
-        <Link to={Resume} target="_blank" downoload>
+        <Link to={Resume} target="_blank" downoload className="link">
           My Resume
         </Link>
-        <h4>feel free to email me</h4>
+        <Link to="/contact">
+          <h4>feel free to email me</h4>
+        </Link>
       </div>
     </div>
   )

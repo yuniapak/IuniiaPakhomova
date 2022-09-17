@@ -6,6 +6,9 @@ import Quiz3 from '../assets/Quiz3.png'
 import Game1 from '../assets/Game1.png'
 import Game2 from '../assets/Game2.png'
 import Game3 from '../assets/Game3.png'
+import Garden1 from '../assets/Garden1.png'
+import Garden2 from '../assets/Garden2.png'
+import Garden3 from '../assets/Garden3.png'
 import Library2 from '../assets/Library1.png'
 import Library1 from '../assets/Library2.png'
 import Library3 from '../assets/Library3.png'
@@ -23,7 +26,7 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio">
-      <div classsName="portfolio-nav">
+      <div className="portfolio-nav">
         <Nav />
       </div>
       <div className="projects">
@@ -56,39 +59,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div>&nbsp;</div>
-        <div className="project-card">
-          <div className="about-lang-1" onClick={showInfo}>
-            <h2>My Garden</h2>
-            <Carousel
-              showThumbs={false}
-              showStatus={false}
-              autoPlay={true}
-              intervall="4000"
-              transitionTime="2000"
-            >
-              <img src={Quiz1} className="sliderimg" alt="quiz1" />
-              <img src={Quiz2} className="sliderimg" alt="quiz2" />
-            </Carousel>
-            <div className="about-lang-1">
-              {showP && card === 'about-lang-1' ? (
-                <p>
-                  {' '}
-                  Built using MERN. Gardening App that allows you to find any
-                  sort of information about plants and how to care about garden,
-                  has a built in search bar to find right plant. Function for
-                  companion planting that allows you to see what would be best
-                  planted with each other, using full CRUD you can add plant to
-                  the cart and make a chart for companion plants out of your
-                  cart.{' '}
-                </p>
-              ) : null}
-              <a href="https://github.com/yuniapak/Your-Garden">GitHub</a>
-              <a href="https://github.com/yuniapak/Your-Garden">Web</a>
-              <div>&nbsp;</div>
-            </div>
-          </div>
-        </div>
+
         <div className="project-card">
           <div className="project-card-3" onClick={showInfo}>
             <h2>Maze Game: 'Sweet pea'</h2>
@@ -120,7 +91,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div>&nbsp;</div>
+
         <div className="project-card">
           <div className="project-card-4" onClick={showInfo}>
             <h2>Your Library</h2>
@@ -154,6 +125,39 @@ const Portfolio = () => {
               <a href="https://pocketlibrary.herokuapp.com/search/book/fvlHAgAAQBAJ">
                 Web
               </a>
+            </div>
+          </div>
+        </div>
+        <div className="project-card">
+          <div className="about-lang-1" onClick={showInfo}>
+            <h2>My Garden</h2>
+            <Carousel
+              showThumbs={false}
+              showStatus={false}
+              autoPlay={true}
+              intervall="4000"
+              transitionTime="2000"
+            >
+              <img src={Garden1} className="sliderimg" alt="quiz1" />
+              <img src={Garden2} className="sliderimg" alt="quiz2" />
+              <img src={Garden3} className="sliderimg" alt="quiz2" />
+            </Carousel>
+            <div className="about-lang-1">
+              {showP && card === 'about-lang-1' ? (
+                <p>
+                  {' '}
+                  Built using MERN. Gardening App that allows you to find any
+                  sort of information about plants and how to care about garden,
+                  has a built in search bar to find right plant. Function for
+                  companion planting that allows you to see what would be best
+                  planted with each other, using full CRUD you can add plant to
+                  the cart and make a chart for companion plants out of your
+                  cart.{' '}
+                </p>
+              ) : null}
+              <a href="https://github.com/yuniapak/Your-Garden">GitHub</a>
+              <a href="https://github.com/yuniapak/Your-Garden">Web</a>
+              <div>&nbsp;</div>
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ const Contact = () => {
     )
   }
   return (
-    <div>
+    <div className="contact">
       <Nav />
       <h3>Email me</h3>
       <div>
