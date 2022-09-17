@@ -232,10 +232,28 @@ top:250px;
 .footer img:hover{
   filter: contrast(100%)
 }
+.link-card img{
+  max-width: 15%;
+  filter: contrast(20%);
+}
+.link-card{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.link-card img:hover{
+  filter: contrast(100%);
+}
 @media only screen and (max-width: 600px){
-
+  .body{
+    height: 100%;
+  }
+  .mainClass{
+    padding-bottom: 50px;
+    margin-bottom: 200px;
+  }
   .mainClass a{
-    position:relative;
+    position:static;
     display: flex;
     flex-flow: column;
     margin: auto;
@@ -336,10 +354,24 @@ top:250px;
 .footer {
   height: 50px;
   margin-top: -50px;
+  display:inline
 }
 .footer img{
   margin-top:20px;
   width:10%;
   filter: contrast(100%)
+}
+.about-lang-0 img{
+  padding:6px;
+  margin:auto;
+}
+.link-card{
+  display: flex;
+  flex-flow: column;
+  filter: contrast(50%);
+  align-items: center;
+}
+.link-card img{
+  max-width: 20%;
 }
 }

@@ -14,6 +14,7 @@ import Library1 from '../assets/Library2.png'
 import Library3 from '../assets/Library3.png'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel'
+import Arrow from '../assets/icons/Arrow.png'
 
 const Portfolio = () => {
   const [showP, setShowP] = useState(false)
@@ -31,7 +32,7 @@ const Portfolio = () => {
       </div>
       <div className="projects">
         <div className="project-card">
-          <div className="about-lang-0" onClick={showInfo}>
+          <div>
             <h2>QuizCards</h2>
             <Carousel
               showThumbs={false}
@@ -44,7 +45,13 @@ const Portfolio = () => {
               <img src={Quiz2} className="sliderimg" alt="carouselPic" />
               <img src={Quiz3} className="sliderimg" alt="carouselPic" />
             </Carousel>
-            <div className="about-lang-0">
+            <div className="link-card">
+              <img
+                src={Arrow}
+                alt="arrow"
+                className="about-lang-0"
+                onClick={showInfo}
+              />
               {showP && card === 'about-lang-0' ? (
                 <p>
                   Built using PERN. Flash card study app, with easy
@@ -61,9 +68,9 @@ const Portfolio = () => {
         </div>
 
         <div className="project-card">
-          <div className="project-card-3" onClick={showInfo}>
+          <div className="project-card-3">
             <h2>Maze Game: 'Sweet pea'</h2>
-            <div className="about-lang-2">
+            <div>
               <Carousel
                 showThumbs={false}
                 showStatus={false}
@@ -76,7 +83,13 @@ const Portfolio = () => {
                 <img src={Game3} className="sliderimg" alt="carouselPic" />
               </Carousel>
             </div>
-            <div className="about-lang-2">
+            <div className="link-card">
+              <img
+                src={Arrow}
+                alt="arrow"
+                className="about-lang-2"
+                onClick={showInfo}
+              />
               {showP && card === 'about-lang-2' ? (
                 <p>
                   Built with vanilla JavaScript, HTML and CSS. Game with
@@ -93,9 +106,9 @@ const Portfolio = () => {
         </div>
 
         <div className="project-card">
-          <div className="project-card-4" onClick={showInfo}>
+          <div className="project-card-4">
             <h2>Your Library</h2>
-            <div className="about-lang-3">
+            <div>
               <Carousel
                 showThumbs={false}
                 showStatus={false}
@@ -108,7 +121,13 @@ const Portfolio = () => {
                 <img src={Library3} className="sliderimg" alt="carouselPic" />
               </Carousel>
             </div>
-            <div className="about-lang-3">
+            <div className="link-card">
+              <img
+                src={Arrow}
+                alt="arrow"
+                className="about-lang-3"
+                onClick={showInfo}
+              />
               {showP && card === 'about-lang-3' ? (
                 <p>
                   Built using PERN. Library social media app, where you can find
@@ -129,7 +148,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="project-card">
-          <div className="about-lang-1" onClick={showInfo}>
+          <div className="about-lang-1">
             <h2>My Garden</h2>
             <Carousel
               showThumbs={false}
@@ -142,7 +161,13 @@ const Portfolio = () => {
               <img src={Garden2} className="sliderimg" alt="quiz2" />
               <img src={Garden3} className="sliderimg" alt="quiz2" />
             </Carousel>
-            <div className="about-lang-1">
+            <div className="link-card">
+              <img
+                src={Arrow}
+                alt="arrow"
+                className="about-lang-1"
+                onClick={showInfo}
+              />
               {showP && card === 'about-lang-1' ? (
                 <p>
                   {' '}
