@@ -61,8 +61,20 @@ const Portfolio = () => {
                   from the library.{' '}
                 </p>
               ) : null}
-              <a href="https://github.com/yuniapak/quizcards">GitHub</a>
-              <a href="https://quizardsapp.herokuapp.com/">Web</a>
+              <a
+                href="https://github.com/yuniapak/quizcards"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://quizardsapp.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Web
+              </a>
             </div>
           </div>
         </div>
@@ -99,8 +111,20 @@ const Portfolio = () => {
                   one live away.
                 </p>
               ) : null}
-              <a href="https://github.com/yuniapak/Maze">GitHub</a>
-              <a href="https://devilish-plants.surge.sh/index.html">Game</a>
+              <a
+                href="https://github.com/yuniapak/Maze"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://devilish-plants.surge.sh/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Game
+              </a>
             </div>
           </div>
         </div>
@@ -140,8 +164,18 @@ const Portfolio = () => {
                   app by login as email: user@test.com password: user1234
                 </p>
               ) : null}
-              <a href="https://github.com/yuniapak/My_Library">GitHub</a>
-              <a href="https://pocketlibrary.herokuapp.com/search/book/fvlHAgAAQBAJ">
+              <a
+                href="https://github.com/yuniapak/My_Library"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://pocketlibrary.herokuapp.com/search/book/fvlHAgAAQBAJ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Web
               </a>
             </div>
@@ -180,8 +214,20 @@ const Portfolio = () => {
                   cart.{' '}
                 </p>
               ) : null}
-              <a href="https://github.com/yuniapak/Your-Garden">GitHub</a>
-              <a href="https://github.com/yuniapak/Your-Garden">Web</a>
+              <a
+                href="https://github.com/yuniapak/Your-Garden"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://github.com/yuniapak/Your-Garden"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Web
+              </a>
               <div>&nbsp;</div>
             </div>
           </div>
