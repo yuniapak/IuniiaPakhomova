@@ -131,7 +131,7 @@ const Portfolio = () => {
 
         <div className="project-card">
           <div className="project-card-4">
-            <h2>Your Library</h2>
+            <h2>Pocket Library</h2>
             <div>
               <Carousel
                 showThumbs={false}
