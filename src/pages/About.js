@@ -10,7 +10,7 @@ import PYTHON from '../assets/icons/Python.png'
 import JS from '../assets/icons/vanillaJS.png'
 import VUE from '../assets/icons/VUE.png'
 import PSQL from '../assets/icons/postgres.png'
-import Resume from '../assets/IuniiaPakhomova-Resume.pdf'
+import Resume from '../assets/YunPakhomova-Resume.pdf'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 const About = () => {

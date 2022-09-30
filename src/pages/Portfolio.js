@@ -20,9 +20,13 @@ const Portfolio = () => {
   const [showP, setShowP] = useState(false)
   const [card, setCard] = useState('')
   const showInfo = (e) => {
-    setShowP(true)
-    setCard(e.target.className)
-    console.log(e.target.className)
+    if (showP === false) {
+      setShowP(true)
+      setCard(e.target.className)
+      console.log(e.target.className)
+    } else {
+      setShowP(false)
+    }
   }
 
   return (
